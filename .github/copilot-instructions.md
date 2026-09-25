@@ -1,0 +1,5 @@
+- Verify that the project is scaffolded and dependencies are installed.
+- Keep the repo independent from xesim_dump and libraries.gpu.xetla.
+- Treat cobalt_stats_tally as a standalone performance analysis tool.
+- Preserve the current CLI contract and_csv ordering behavior.
+- Run the package tests in the project venv before claiming success.

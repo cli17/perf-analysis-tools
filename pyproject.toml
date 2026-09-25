@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "perf-analysis-tools"
+version = "0.1.0"
+description = "Standalone performance analysis utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "py7zr>=0.22",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[project.scripts]
+cobalt-stats-tally = "perf_analysis_tools.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

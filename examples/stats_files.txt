@@ -1,0 +1,4 @@
+^ttl_hpx_Test2[\\/]\d+\.esimd[^\\/]*[\\/]cobalt_sim_stats\.(?:7z|txt)$
+^ttl_hpx_Test11[\\/]\d+\.esimd[^\\/]*[\\/]cobalt_sim_stats\.(?:7z|txt)$
+^ttl_hpx_Test13[\\/]\d+\.esimd[^\\/]*[\\/]cobalt_sim_stats\.(?:7z|txt)$
+^ttl_hpx_Test19[\\/]\d+\.esimd[^\\/]*[\\/]cobalt_sim_stats\.(?:7z|txt)$
